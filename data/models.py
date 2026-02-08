@@ -16,4 +16,4 @@ class Materials(BaseModel):
     material_name: str
     ton: float
     price: float
-    lat_and_long: list[float]
+    description: str
