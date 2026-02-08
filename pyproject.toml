@@ -5,6 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "databricks-langchain>=0.14.0",
+    "databricks-sdk>=0.85.0",
+    "databricks-sql-connector[standard]>=4.2.4",
     "faker>=40.4.0",
+    "fastapi[standard]>=0.128.5",
+    "langchain>=1.2.9",
+    "mlflow>=3.9.0",
     "pydantic[standard]>=2.12.5",
+    "streamlit>=1.54.0",
 ]

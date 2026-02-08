@@ -5,8 +5,7 @@ e realista, ideal para alimentar um banco de vetores e melhorar a performance de
 """
 
 import random
-import json
-from models import Materials
+from data.models import Materials
 
 CONTEUDO_RAG = {
     "Cantoneira": {
