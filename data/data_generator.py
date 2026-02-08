@@ -1,8 +1,13 @@
+"""
+Gerador de dados sintéticos para materiais metálicos, com foco em criar descrições ricas para RAG.
+Este script utiliza o modelo definido em `models.py` para criar uma base de conhecimento diversificada
+e realista, ideal para alimentar um banco de vetores e melhorar a performance de sistemas de recuperação de informações.
+"""
+
 import random
 import json
 from models import Materials
 
-# Dicionário expandido para garantir variabilidade semântica no RAG
 CONTEUDO_RAG = {
     "Cantoneira": {
         "verbos": ["Indicada para", "Utilizada em", "Essencial para", "Aplicada em"],
